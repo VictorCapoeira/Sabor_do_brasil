@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hi3GAi5JzietsioSU0yv/3gwVPVfIzu6R6UvWHPdc4s=",
+  "Hash": "/sbJvh1T1yF7a5HpclvhDEXpMY9lxm3UfJMpvTVu5fs=",
   "Source": "SaborBrasil",
   "BasePath": "_content/SaborBrasil",
   "Mode": "Default",
@@ -16,27 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasil\\wwwroot\\index.cshtml",
-      "SourceId": "SaborBrasil",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasil\\wwwroot\\",
-      "BasePath": "_content/SaborBrasil",
-      "RelativePath": "index#[.{fingerprint}]?.cshtml",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ey95bv3coi",
-      "Integrity": "Wkegup5rojHnpp3YdyDnrvye/QKgIlyNVC69HfxjOSs=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "wwwroot\\index.cshtml"
-    },
     {
       "Identity": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasil\\wwwroot\\script.js",
       "SourceId": "SaborBrasil",
@@ -81,88 +60,6 @@
     }
   ],
   "Endpoints": [
-    {
-      "Route": "index.cshtml",
-      "AssetFile": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasil\\wwwroot\\index.cshtml",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "20163"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Wkegup5rojHnpp3YdyDnrvye/QKgIlyNVC69HfxjOSs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 11:54:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Wkegup5rojHnpp3YdyDnrvye/QKgIlyNVC69HfxjOSs="
-        }
-      ]
-    },
-    {
-      "Route": "index.ey95bv3coi.cshtml",
-      "AssetFile": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasil\\wwwroot\\index.cshtml",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "20163"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Wkegup5rojHnpp3YdyDnrvye/QKgIlyNVC69HfxjOSs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 11:54:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ey95bv3coi"
-        },
-        {
-          "Name": "label",
-          "Value": "index.cshtml"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Wkegup5rojHnpp3YdyDnrvye/QKgIlyNVC69HfxjOSs="
-        }
-      ]
-    },
     {
       "Route": "script.js",
       "AssetFile": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasil\\wwwroot\\script.js",
