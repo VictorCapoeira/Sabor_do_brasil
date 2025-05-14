@@ -20,4 +20,37 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     }
+
+    // Evento de submit do formulário de login
+    const loginForm = document.getElementById('loginForm');
+    const loginError = document.getElementById('loginError');
+    if (loginForm) {
+        loginForm.addEventListener('submit', async function (e) {
+            e.preventDefault(); // Evita recarregar a página
+
+            const email = document.getElementById('loginEmail').value;
+            const senha = document.getElementById('loginPassword').value;
+            loginError.style.display = 'none';
+
+            const response = await fetch('/Account/Login', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ email, senha })
+            });
+
+            if (response.ok) {
+                window.location.reload();
+            } else {
+                loginError.style.display = 'block';
+            }
+        });
+    }
+
+    // Evento para o botão "Entrar" disparar o submit do formulário
+    const submitLoginBtn = document.getElementById('submitLogin');
+    if (submitLoginBtn && loginForm) {
+        submitLoginBtn.addEventListener('click', function() {
+            loginForm.requestSubmit();
+        });
+    }
 });
