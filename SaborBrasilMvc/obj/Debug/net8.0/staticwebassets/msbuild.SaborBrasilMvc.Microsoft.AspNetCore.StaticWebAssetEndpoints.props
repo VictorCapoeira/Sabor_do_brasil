@@ -48,17 +48,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qozxzxz5bw"},{"Name":"integrity","Value":"sha256-FjZGQbMOp8WtIKi\u002B1yOWQ\u002BOmjOcv4Y4XBWZhZ3wmBBM="},{"Name":"label","Value":"_content/SaborBrasilMvc/img/empresa/logo.jpeg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"17158"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022FjZGQbMOp8WtIKi\u002B1yOWQ\u002BOmjOcv4Y4XBWZhZ3wmBBM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 May 2025 11:31:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SaborBrasilMvc/js/script.gxsacvw28d.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\script.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gxsacvw28d"},{"Name":"integrity","Value":"sha256-9JhvsN9Mo31LUH22XiEn78sxdh4J0UMe3IgHUxST\u002Bnc="},{"Name":"label","Value":"_content/SaborBrasilMvc/js/script.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2068"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00229JhvsN9Mo31LUH22XiEn78sxdh4J0UMe3IgHUxST\u002Bnc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 May 2025 13:26:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SaborBrasilMvc/js/script.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\script.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qRD/mQQ8ICibSTkByz6/epuhjDkVIZtT8oP2u7t\u002B5Og="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"817"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022qRD/mQQ8ICibSTkByz6/epuhjDkVIZtT8oP2u7t\u002B5Og=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 13:18:11 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/SaborBrasilMvc/js/script.nwwbgxwd8j.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\script.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nwwbgxwd8j"},{"Name":"integrity","Value":"sha256-qRD/mQQ8ICibSTkByz6/epuhjDkVIZtT8oP2u7t\u002B5Og="},{"Name":"label","Value":"_content/SaborBrasilMvc/js/script.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"817"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022qRD/mQQ8ICibSTkByz6/epuhjDkVIZtT8oP2u7t\u002B5Og=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 13:18:11 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9JhvsN9Mo31LUH22XiEn78sxdh4J0UMe3IgHUxST\u002Bnc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2068"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00229JhvsN9Mo31LUH22XiEn78sxdh4J0UMe3IgHUxST\u002Bnc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 May 2025 13:26:57 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SaborBrasilMvc/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
