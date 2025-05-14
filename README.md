@@ -4,6 +4,6 @@ Projeto desenvolvido para a empresa **Sabor do Brasil** como parte da avaliaçã
 
 ## 📌 Tecnologias  
 - **Backend**: ASP.NET Core (.NET 8.0)  
-- **Frontend**: HTML/CSS/JavaScript (SPA)  
+- **Frontend**: HTML/CSS/JavaScript/Bootstrap  
 - **Banco de Dados**: MySQL  
 - **Ferramentas**: MySQL Workbench (DER), GitHub (versionamento)  
