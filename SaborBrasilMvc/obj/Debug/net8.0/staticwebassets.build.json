@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8Z7d5QpZrV5n7A0dCZw9OEdOmAU0PNzwES6Tvo2UNrI=",
+  "Hash": "DOJnTafCpzxgq2Q+fgVull7y2OzS/nGN6sd3C4DLA2g=",
   "Source": "SaborBrasilMvc",
   "BasePath": "_content/SaborBrasilMvc",
   "Mode": "Default",
@@ -120,6 +120,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\empresa\\logo.jpeg",
+      "SourceId": "SaborBrasilMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\",
+      "BasePath": "_content/SaborBrasilMvc",
+      "RelativePath": "img/empresa/logo#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qozxzxz5bw",
+      "Integrity": "FjZGQbMOp8WtIKi+1yOWQ+OmjOcv4Y4XBWZhZ3wmBBM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\empresa\\logo.jpeg"
     },
     {
       "Identity": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\js\\script.js",
@@ -1605,6 +1626,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "img/empresa/logo.jpeg",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\empresa\\logo.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17158"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FjZGQbMOp8WtIKi+1yOWQ+OmjOcv4Y4XBWZhZ3wmBBM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 11:31:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FjZGQbMOp8WtIKi+1yOWQ+OmjOcv4Y4XBWZhZ3wmBBM="
+        }
+      ]
+    },
+    {
+      "Route": "img/empresa/logo.qozxzxz5bw.jpeg",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\empresa\\logo.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17158"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FjZGQbMOp8WtIKi+1yOWQ+OmjOcv4Y4XBWZhZ3wmBBM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 11:31:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qozxzxz5bw"
+        },
+        {
+          "Name": "label",
+          "Value": "img/empresa/logo.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FjZGQbMOp8WtIKi+1yOWQ+OmjOcv4Y4XBWZhZ3wmBBM="
         }
       ]
     },
