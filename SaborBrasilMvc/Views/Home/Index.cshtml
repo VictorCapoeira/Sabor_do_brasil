@@ -1,3 +1,5 @@
+@model DtosBrasil.EmpresaInfoDto
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -11,7 +13,7 @@
     <!-- Google Fonts - Inter -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- CSS Personalizado -->
-    <link rel="stylesheet" href="~/css/styles.css" />>
+    <link rel="stylesheet" href="~/css/styles.css" />
 </head>
 <body>
     <div class="container-fluid">
@@ -19,13 +21,13 @@
             <!-- Coluna do Perfil (Esquerda) -->
             <div class="col-md-3 bg-light p-4" id="profile-column">
                 <div class="text-center mb-4">
-                    <img src="logo_sabor_do_brasil.png" alt="Logo Sabor do Brasil" class="img-fluid mb-3">
-                    <h3 class="fw-bold" id="company-name"></h3>
+                    <img src="@Url.Content("~/" + Model.Logo)" alt="Logo Sabor do Brasil" class="img-fluid mb-3">
+                    <h3 class="fw-bold" id="company-name">@Model.Nome</h3>
                     <div class="divider"></div>
                 </div>
                 <div class="stats mt-4">
-                    <p class="mb-2"><i class="fas fa-thumbs-up me-2"></i> Likes: <span id="total-likes">0</span></p>
-                    <p><i class="fas fa-thumbs-down me-2" ></i> Dislikes: <span id="total-dislikes">0</span></p>
+                    <p class="mb-2"><i class="fas fa-thumbs-up me-2"></i> Likes: <span id="total-likes">@Model.TotalLikes</span></p>
+                    <p><i class="fas fa-thumbs-down me-2" ></i> Dislikes: <span id="total-dislikes">@Model.TotalDeslikes</span></p>
                 </div>
             </div>
 

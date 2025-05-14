@@ -331,6 +331,88 @@
       ]
     },
     {
+      "Route": "img/empresa/logo.jpeg",
+      "AssetFile": "img/empresa/logo.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17158"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FjZGQbMOp8WtIKi+1yOWQ+OmjOcv4Y4XBWZhZ3wmBBM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 11:31:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FjZGQbMOp8WtIKi+1yOWQ+OmjOcv4Y4XBWZhZ3wmBBM="
+        }
+      ]
+    },
+    {
+      "Route": "img/empresa/logo.qozxzxz5bw.jpeg",
+      "AssetFile": "img/empresa/logo.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17158"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FjZGQbMOp8WtIKi+1yOWQ+OmjOcv4Y4XBWZhZ3wmBBM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 11:31:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qozxzxz5bw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FjZGQbMOp8WtIKi+1yOWQ+OmjOcv4Y4XBWZhZ3wmBBM="
+        },
+        {
+          "Name": "label",
+          "Value": "img/empresa/logo.jpeg"
+        }
+      ]
+    },
+    {
       "Route": "js/script.js",
       "AssetFile": "js/script.js",
       "Selectors": [],

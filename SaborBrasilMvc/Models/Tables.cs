@@ -1,3 +1,5 @@
+
+using System.ComponentModel.DataAnnotations.Schema;
 namespace SaborBrasilTabelas.Models
 {
     public class Usuario
@@ -29,6 +31,7 @@ namespace SaborBrasilTabelas.Models
         public string Rua { get; set; } = string.Empty;
         public string Numero { get; set; } = string.Empty;
 
+        [Column("empresa_id")]
         public int EmpresaId { get; set; }
         public Empresa? Empresa { get; set; } 
     }
@@ -41,9 +44,10 @@ namespace SaborBrasilTabelas.Models
         public string Local { get; set; } = string.Empty;
         public DateTime CreatedAt { get; set; }
 
+        [Column("empresa_id")]
         public int EmpresaId { get; set; }
         public Empresa? Empresa { get; set; }
-
+        [Column("usuario_id")]
         public int UsuarioId { get; set; }
         public Usuario? Usuario { get; set; }
 
@@ -55,10 +59,10 @@ namespace SaborBrasilTabelas.Models
         public int Id { get; set; }
 
         public string Tipo { get; set; } = string.Empty; // "like" ou "deslike"
-
+        [Column("publicacao_id")]
         public int PublicacaoId { get; set; }
         public Publicacao? Publicacao { get; set; }
-
+        [Column("usuario_id")]
         public int UsuarioId { get; set; }
         public Usuario? Usuario { get; set; }
     }
@@ -69,10 +73,10 @@ namespace SaborBrasilTabelas.Models
         public DateTime Date { get; set; }
         public DateTime CreatedAt { get; set; }
         public string? Foto { get; set; }
-
+        [Column("usuario_id")]
         public int UsuarioId { get; set; }
         public Usuario? Usuario { get; set; }
-
+        [Column("publicacao_id")]
         public int PublicacaoId { get; set; }
         public Publicacao? Publicacao { get; set; }
     }
