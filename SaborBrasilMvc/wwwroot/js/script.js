@@ -87,4 +87,23 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
         setLoggedOutUI();
     }
+
+    // Like/Deslike AJAX
+    document.querySelectorAll('.btn-like, .btn-dislike').forEach(btn => {
+        btn.addEventListener('click', async function() {
+            const isLike = this.classList.contains('btn-like');
+            const pubId = this.getAttribute('data-id');
+            const url = isLike ? '/Interacao/Like' : '/Interacao/Deslike';
+
+            const response = await fetch(url, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ publicacaoId: pubId })
+            });
+
+            if (response.ok) {
+                window.location.reload(); // Atualiza para refletir o novo estado
+            }
+        });
+    });
 });
