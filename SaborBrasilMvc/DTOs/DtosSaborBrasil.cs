@@ -13,5 +13,12 @@ namespace DtosBrasil
             public string Email { get; set; }
             public string Senha { get; set; }
         }
+    public class UserInfoDto
+        {
+            public string Nome { get; set; }
+            public string Foto { get; set; }
+            public int TotalLikes { get; set; }
+            public int TotalDeslikes { get; set; }
+        }
 
 }
