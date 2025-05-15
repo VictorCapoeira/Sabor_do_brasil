@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\img\\empresa\\logo.jpeg"
     },
     {
+      "Id": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\usuario\\joao.jpeg",
+      "PackagePath": "staticwebassets\\img\\usuario\\joao.jpeg"
+    },
+    {
       "Id": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\js\\script.js",
       "PackagePath": "staticwebassets\\js\\script.js"
     },

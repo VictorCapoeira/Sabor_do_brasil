@@ -14,6 +14,9 @@ builder.Services.AddDbContext<SaborBrasilContext>(options =>
 // Adiciona MVC com Views (necessário para TempData)
 builder.Services.AddControllersWithViews();
 
+// Adiciona suporte a sessões
+builder.Services.AddSession();
+
 var app = builder.Build();
 
 // Teste de Conexão com o Banco de Dados
@@ -53,6 +56,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseSession();
 
 app.MapControllerRoute(
     name: "default",

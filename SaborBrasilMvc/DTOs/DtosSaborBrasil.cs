@@ -1,17 +1,49 @@
 namespace DtosBrasil
 {
-    public class EmpresaInfoDto
-        {
-            public string Nome { get; set; }
-            public string Logo { get; set; }
-            public int TotalLikes { get; set; }
-            public int TotalDeslikes { get; set; }
-        }
-// DTOs/LoginDto.cs
-    public class LoginDto
-        {
-            public string Email { get; set; }
-            public string Senha { get; set; }
-        }
+    public class PaginaPrincipalDto
+    {
+        public EmpresaInfoDto Empresa { get; set; }
+        public UserInfoDto Usuario { get; set; }
+        public List<PublicacaoDto> Publicacoes { get; set; }
+        public List<ComentarioDto> Comentarios { get; set; }
+        // Adicione outros campos conforme necessário
+    }
 
+    public class EmpresaInfoDto
+    {
+        public string Nome { get; set; }
+        public string Logo { get; set; }
+        public int TotalLikes { get; set; }
+        public int TotalDeslikes { get; set; }
+    }
+
+    public class UserInfoDto
+    {
+        public string Nome { get; set; }
+        public string Foto { get; set; }
+        public int TotalLikes { get; set; }
+        public int TotalDeslikes { get; set; }
+    }
+
+    public class PublicacaoDto
+    {
+        public string Titulo { get; set; }
+        public string Imagem { get; set; }
+        public string Descricao { get; set; }
+        // Outros campos...
+    }
+
+    public class ComentarioDto
+    {
+        public string Texto { get; set; }
+        public string UsuarioNome { get; set; }
+        public string FotoUsuario { get; set; }
+        // Outros campos...
+    }
+
+    public class LoginDto
+    {
+        public string Email { get; set; }
+        public string Senha { get; set; }
+    }
 }

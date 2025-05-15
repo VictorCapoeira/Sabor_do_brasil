@@ -23,8 +23,19 @@ namespace UserDados
             if (usuario == null)
                 return Unauthorized(new { message = "Usuário ou senha incorretos." });
 
-            // Aqui você pode adicionar autenticação por cookie ou JWT se desejar
-            return Ok(new { message = "Login realizado com sucesso!", usuario = usuario.Nome });
+            // Salva o ID do usuário na sessão
+            HttpContext.Session.SetInt32("UsuarioId", usuario.Id);
+
+            return Ok(new { message = "Login realizado com sucesso!", usuarioId = usuario.Id });
+        }
+
+        [HttpPost]
+        public IActionResult Logout()
+        {
+            // Aqui você pode limpar a sessão/cookie se estiver usando autenticação
+            // Exemplo para sessão:
+            HttpContext.Session.Clear();
+            return Ok();
         }
     }
 }
