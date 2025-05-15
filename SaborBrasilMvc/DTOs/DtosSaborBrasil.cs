@@ -27,6 +27,7 @@ namespace DtosBrasil
 
     public class PublicacaoDto
     {
+        public int Id { get; set; }
         public string Titulo { get; set; }
         public string Imagem { get; set; }
         public string Descricao { get; set; }
@@ -34,6 +35,8 @@ namespace DtosBrasil
         public int Likes { get; set; }
         public int Dislikes { get; set; }
         public int Comentarios { get; set; }
+        public bool UsuarioCurtiu { get; set; }
+        public bool UsuarioDescurtiu { get; set; }
     }
 
     public class ComentarioDto
@@ -41,7 +44,7 @@ namespace DtosBrasil
         public string Texto { get; set; }
         public string UsuarioNome { get; set; }
         public string FotoUsuario { get; set; }
-        // Outros campos...
+        // Outros campos... 
     }
 
     public class LoginDto

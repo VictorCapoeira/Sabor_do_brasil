@@ -31,37 +31,41 @@ namespace SaborBrasilMvc.Controllers
                 })
                 .FirstOrDefaultAsync();
 
-            // Busca usuário logado (ajuste para pegar o usuário da sessão/cookie)
             var usuarioId = HttpContext.Session.GetInt32("UsuarioId");
+
+            // Busca usuário logado (ajuste para pegar o usuário da sessão/cookie)
             UserInfoDto usuario = null;
 
             if (usuarioId.HasValue)
             {
                 usuario = await _context.Usuarios
                     .Where(u => u.Id == usuarioId.Value)
-                    .Include(u => u.Publicacoes)
-                        .ThenInclude(p => p.Interacoes)
                     .Select(u => new UserInfoDto
                     {
                         Nome = u.Nome,
                         Foto = u.Foto,
-                        TotalLikes = u.Publicacoes.SelectMany(p => p.Interacoes).Count(i => i.Tipo == "like"),
-                        TotalDeslikes = u.Publicacoes.SelectMany(p => p.Interacoes).Count(i => i.Tipo == "deslike")
+                        TotalLikes = u.Interacoes.Count(i => i.Tipo == "like"),
+                        TotalDeslikes = u.Interacoes.Count(i => i.Tipo == "deslike")
                     })
                     .FirstOrDefaultAsync();
             }
 
             // Busca publicações (exemplo simplificado)
             var publicacoes = await _context.Publicacoes
+                .Include(p => p.Interacoes)
+                .Include(p => p.Comentarios)
                 .Select(p => new PublicacaoDto
                 {
+                    Id = p.Id,
                     Titulo = p.Titulo,
                     Imagem = p.Imagem,
                     Descricao = p.Descricao,
                     Local = p.Local,
                     Likes = p.Interacoes.Count(i => i.Tipo == "like"),
                     Dislikes = p.Interacoes.Count(i => i.Tipo == "deslike"),
-                    Comentarios = p.Comentarios.Count()
+                    Comentarios = p.Comentarios.Count(),
+                    UsuarioCurtiu = usuarioId.HasValue && p.Interacoes.Any(i => i.UsuarioId == usuarioId.Value && i.Tipo == "like"),
+                    UsuarioDescurtiu = usuarioId.HasValue && p.Interacoes.Any(i => i.UsuarioId == usuarioId.Value && i.Tipo == "deslike")
                 })
                 .ToListAsync();
 

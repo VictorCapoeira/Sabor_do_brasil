@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s6Cr6UjqStP0zsh4l80q1P/V8WmymrAdj0J/KlwnDHk=",
+  "Hash": "hweNNKK7zAL7P9sJ1P1S2wHs49ztpwg+LZfEjmhcg/E=",
   "Source": "SaborBrasilMvc",
   "BasePath": "_content/SaborBrasilMvc",
   "Mode": "Default",
@@ -178,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3dthdw0uft",
-      "Integrity": "GSRDc1K1ffnSPREWaemzYjMlB/HLk351eqoL6fK+QUI=",
+      "Fingerprint": "a9ygnr7z3q",
+      "Integrity": "bgQgNJCYDs974W5wSSWCyLENb8aQ9RC746mtAVWetho=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\script.js"
@@ -1815,7 +1815,7 @@
       ]
     },
     {
-      "Route": "js/script.3dthdw0uft.js",
+      "Route": "js/script.a9ygnr7z3q.js",
       "AssetFile": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\js\\script.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1825,7 +1825,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3222"
+          "Value": "3965"
         },
         {
           "Name": "Content-Type",
@@ -1833,11 +1833,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GSRDc1K1ffnSPREWaemzYjMlB/HLk351eqoL6fK+QUI=\""
+          "Value": "\"bgQgNJCYDs974W5wSSWCyLENb8aQ9RC746mtAVWetho=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 15 May 2025 12:10:30 GMT"
+          "Value": "Thu, 15 May 2025 13:16:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1847,7 +1847,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3dthdw0uft"
+          "Value": "a9ygnr7z3q"
         },
         {
           "Name": "label",
@@ -1855,7 +1855,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GSRDc1K1ffnSPREWaemzYjMlB/HLk351eqoL6fK+QUI="
+          "Value": "sha256-bgQgNJCYDs974W5wSSWCyLENb8aQ9RC746mtAVWetho="
         }
       ]
     },
@@ -1870,7 +1870,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3222"
+          "Value": "3965"
         },
         {
           "Name": "Content-Type",
@@ -1878,11 +1878,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GSRDc1K1ffnSPREWaemzYjMlB/HLk351eqoL6fK+QUI=\""
+          "Value": "\"bgQgNJCYDs974W5wSSWCyLENb8aQ9RC746mtAVWetho=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 15 May 2025 12:10:30 GMT"
+          "Value": "Thu, 15 May 2025 13:16:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1892,7 +1892,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GSRDc1K1ffnSPREWaemzYjMlB/HLk351eqoL6fK+QUI="
+          "Value": "sha256-bgQgNJCYDs974W5wSSWCyLENb8aQ9RC746mtAVWetho="
         }
       ]
     },
