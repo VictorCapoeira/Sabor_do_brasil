@@ -4,11 +4,32 @@ document.addEventListener('DOMContentLoaded', function() {
     const commentBtns = document.querySelectorAll('.btn-comment');
     const loginModal = new bootstrap.Modal(document.getElementById('loginModal'));
     const commentsModal = new bootstrap.Modal(document.getElementById('commentsModal'));
+    let isLoggedIn = false;
 
-    // Abre modal de login
+    // Função para trocar o botão
+    function setLoggedInUI() {
+        loginBtn.textContent = 'Sair';
+        isLoggedIn = true;
+    }
+    function setLoggedOutUI() {
+        loginBtn.textContent = 'Entrar';
+        isLoggedIn = false;
+    }
+
+    // Abre modal de login ou realiza logout
     if (loginBtn) {
-        loginBtn.addEventListener('click', function() {
-            loginModal.show();
+        loginBtn.addEventListener('click', async function() {
+            if (isLoggedIn) {
+                // Logout
+                const response = await fetch('/Account/Logout', { method: 'POST' });
+                if (response.ok) {
+                    setLoggedOutUI();
+                    window.location.reload();
+                }
+            } else {
+                // Login
+                loginModal.show();
+            }
         });
     }
 
@@ -39,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
 
             if (response.ok) {
-                window.location.reload();
+                window.location.reload(); // Recarrega a página após login bem-sucedido
             } else {
                 loginError.style.display = 'block';
             }
@@ -52,5 +73,18 @@ document.addEventListener('DOMContentLoaded', function() {
         submitLoginBtn.addEventListener('click', function() {
             loginForm.requestSubmit();
         });
+    }
+
+    // Inicialização: se já estiver logado, troque o texto
+    if (
+        loginBtn &&
+        document.getElementById('profile-column') &&
+        document.getElementById('company-name') &&
+        // Checa se o nome exibido é de usuário (não de empresa)
+        document.getElementById('profile-column').innerHTML.includes('Foto do usuario')
+    ) {
+        setLoggedInUI();
+    } else {
+        setLoggedOutUI();
     }
 });

@@ -42,8 +42,7 @@ namespace UserDados
                 };
             }
 
-            // Especifique o caminho da view Index da Home
-            return View("~/Views/Home/Index.cshtml", user);
+            return PartialView("~/Views/Shared/_UserProfile.cshtml", user);
         }
     }
 }

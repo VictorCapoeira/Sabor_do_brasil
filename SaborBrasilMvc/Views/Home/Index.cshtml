@@ -1,5 +1,4 @@
-@model DtosBrasil.EmpresaInfoDto
-
+@model DtosBrasil.PaginaPrincipalDto
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -19,17 +18,36 @@
     <div class="container-fluid">
         <div class="row min-vh-100">
             <!-- Coluna do Perfil (Esquerda) -->
-            <div class="col-md-3 bg-light p-4" id="profile-column">
+            @if (Model.Empresa != null && Model.Usuario == null)
+                {
+                     <div class="col-md-3 bg-light p-4" id="profile-column">
                 <div class="text-center mb-4">
-                    <img src="@Url.Content("~/" + Model.Logo)" alt="Logo Sabor do Brasil" class="img-fluid mb-3"> 
-                    <h3 class="fw-bold" id="company-name">@Model.Nome</h3>
+                    <img src="@(Url.Content("~/" + Model.Empresa.Logo))" alt="Logo da Empresa" class="img-fluid mb-3">
+                    <h3 class="fw-bold" id="company-name">@Model.Empresa.Nome</h3>
                     <div class="divider"></div>
                 </div>
                 <div class="stats mt-4">
-                    <p class="mb-2"><i class="fas fa-thumbs-up me-2"></i> Likes: <span id="total-likes">@Model.TotalLikes</span></p>
-                    <p><i class="fas fa-thumbs-down me-2" ></i> Dislikes: <span id="total-dislikes">@Model.TotalDeslikes</span></p>
+                    <p class="mb-2"><i class="fas fa-thumbs-up me-2"></i> Likes: <span id="total-likes">@Model.Empresa.TotalLikes</span></p>
+                    <p><i class="fas fa-thumbs-down me-2"></i> Dislikes: <span id="total-dislikes">@Model.Empresa.TotalDeslikes</span></p>
                 </div>
             </div>
+                }
+                @if (Model.Usuario != null)
+                {
+                     <div class="col-md-3 bg-light p-4" id="profile-column">
+                <div class="text-center mb-4">
+                    <img src="@(Url.Content("~/" + Model.Usuario.Foto))" alt="Foto do usuario" class="img-fluid mb-3">
+                    <h3 class="fw-bold" id="company-name">@Model.Usuario.Nome</h3>
+                    <div class="divider"></div>
+                </div>
+                <div class="stats mt-4">
+                    <p class="mb-2"><i class="fas fa-thumbs-up me-2"></i> Likes: <span id="total-likes">@Model.Usuario.TotalLikes</span></p>
+                    <p><i class="fas fa-thumbs-down me-2"></i> Dislikes: <span id="total-dislikes">@Model.Usuario.TotalDeslikes</span></p>
+                </div>
+            </div>
+                }
+
+           
 
             <!-- Coluna Principal (Centro) -->
             <div class="col-md-6 p-4">
@@ -37,19 +55,6 @@
                     <h2 class="text-center mb-4 subtitle-main" >Publicações</h2>
                     
                     <!-- Postagens -->
-                    <div id="posts-container">
-                        <!-- Exemplo de postagem -->
-                        <div class="post mb-4">
-                            <img src="prato1.jpg" alt="Prato gastronômico" class="img-fluid rounded mb-2">
-                            <h4 class="text-start">Título do Prato 01</h4>
-                            <p class="text-muted"><i class="fas fa-map-marker-alt me-1"></i> Local 01 - Maceió/AL</p>
-                            <div class="interactions">
-                                <button class="btn btn-sm btn-like"><i class="far fa-thumbs-up"></i> <span>2</span></button>
-                                <button class="btn btn-sm btn-dislike"><i class="far fa-thumbs-down"></i> <span>1</span></button>
-                                <button class="btn btn-sm btn-comment"><i class="far fa-comment"></i> <span>4</span></button>
-                            </div>
-                        </div>
-                    </div>
                     <div id="posts-container">
                         <!-- Exemplo de postagem -->
                         <div class="post mb-4">
