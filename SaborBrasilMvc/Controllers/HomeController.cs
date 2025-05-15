@@ -57,7 +57,11 @@ namespace SaborBrasilMvc.Controllers
                 {
                     Titulo = p.Titulo,
                     Imagem = p.Imagem,
-                    Descricao = p.Descricao
+                    Descricao = p.Descricao,
+                    Local = p.Local,
+                    Likes = p.Interacoes.Count(i => i.Tipo == "like"),
+                    Dislikes = p.Interacoes.Count(i => i.Tipo == "deslike"),
+                    Comentarios = p.Comentarios.Count()
                 })
                 .ToListAsync();
 
