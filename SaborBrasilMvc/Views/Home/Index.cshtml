@@ -67,14 +67,11 @@
                                         <i class="fas fa-map-marker-alt me-1"></i> @pub.Descricao
                                     </p>
                                     <div class="interactions">
-                                        <button class="btn btn-sm btn-like">
+                                        <button class="btn btn-sm btn-like @(pub.UsuarioCurtiu ? "active" : "")" data-id="@pub.Id">
                                             <i class="far fa-thumbs-up"></i> <span>@pub.Likes</span>
                                         </button>
-                                        <button class="btn btn-sm btn-dislike">
+                                        <button class="btn btn-sm btn-dislike @(pub.UsuarioDescurtiu ? "active" : "")" data-id="@pub.Id">
                                             <i class="far fa-thumbs-down"></i> <span>@pub.Dislikes</span>
-                                        </button>
-                                        <button class="btn btn-sm btn-comment">
-                                            <i class="far fa-comment"></i> <span>@pub.Comentarios</span>
                                         </button>
                                     </div>
                                 </div>
