@@ -30,7 +30,10 @@ namespace DtosBrasil
         public string Titulo { get; set; }
         public string Imagem { get; set; }
         public string Descricao { get; set; }
-        // Outros campos...
+        public string Local { get; set; }
+        public int Likes { get; set; }
+        public int Dislikes { get; set; }
+        public int Comentarios { get; set; }
     }
 
     public class ComentarioDto
