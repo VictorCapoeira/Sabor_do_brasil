@@ -38,6 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
         commentBtns.forEach(btn => {
             btn.addEventListener('click', function() {
                 commentsModal.show();
+                // Aqui você pode carregar os comentários da publicação usando btn.getAttribute('data-id')
             });
         });
     }

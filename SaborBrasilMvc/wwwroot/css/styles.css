@@ -23,21 +23,72 @@ body {
     color: #000000;
 }
 
-.post {
+/* .post {
     padding: 15px;
     margin-bottom: 20px;
     border-bottom: 1px solid #C2BEBE;
 }
 
+.post-img {
+    width: 100%;
+    height: 350px;           
+    object-fit: cover;       
+    border-radius: 12px;     
+    display: block;
+    margin-bottom: 10px;
+}
+
+.post-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.post-info-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.post-desc {
+    color: #333;
+    font-size: 1rem;
+    flex: 1;
+    text-align: left;
+}
+
+.post-local {
+    color: #888;
+    font-size: 1rem;
+    flex: 1;
+    text-align: right;
+}
+
 .interactions {
     margin-top: 10px;
-}
+} */
 
 .btn-like, .btn-dislike, .btn-comment {
     margin-right: 10px;
     background: none;
     border: none;
 }
+
+.btn-comment {
+    background: none;
+    border: none;
+    color: #D97014;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    transition: transform 0.2s;
+}
+
+.btn-comment:hover {
+    color: #FF6600;
+    transform: scale(1.1);
+}
+
 #login-btn{
     background-color: #D97014; 
     color: #FFFFFF;
@@ -84,4 +135,59 @@ body {
     .col-md-3, .col-md-6 {
         width: 100%;
     }
+}
+.card {
+  width: 100%;              /* Faz o card ocupar toda a largura da div pai */
+  max-width: 600px;         /* (Opcional) Limite máximo para não ficar exagerado em telas grandes */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 10px auto;        /* Centraliza o card na coluna */
+}
+
+.titulo {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0;
+}
+
+.imagem-prato {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  display: block;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.interacoes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.likes {
+  display: flex;
+  gap: 4px; /* Aproxima like e dislike */
+}
+
+.likes span {
+  margin: 0;
+}
+
+.comentarios {
+  margin-left: auto;
 }

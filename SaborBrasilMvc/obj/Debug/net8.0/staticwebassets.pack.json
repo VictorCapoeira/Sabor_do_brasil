@@ -21,6 +21,26 @@
       "PackagePath": "staticwebassets\\img\\empresa\\logo.jpeg"
     },
     {
+      "Id": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\publicacao\\almoco.jpeg",
+      "PackagePath": "staticwebassets\\img\\publicacao\\almoco.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\publicacao\\cafe.jpeg",
+      "PackagePath": "staticwebassets\\img\\publicacao\\cafe.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\publicacao\\doceLeite.jpeg",
+      "PackagePath": "staticwebassets\\img\\publicacao\\doceLeite.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\publicacao\\feijoada.jpeg",
+      "PackagePath": "staticwebassets\\img\\publicacao\\feijoada.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\publicacao\\pao.jpeg",
+      "PackagePath": "staticwebassets\\img\\publicacao\\pao.jpeg"
+    },
+    {
       "Id": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\usuario\\joao.jpeg",
       "PackagePath": "staticwebassets\\img\\usuario\\joao.jpeg"
     },

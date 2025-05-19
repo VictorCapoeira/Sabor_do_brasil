@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hweNNKK7zAL7P9sJ1P1S2wHs49ztpwg+LZfEjmhcg/E=",
+  "Hash": "Z7fcc8swfc+5QBO1vtIx/Ab914I1xa3D5cQRjj7mlIQ=",
   "Source": "SaborBrasilMvc",
   "BasePath": "_content/SaborBrasilMvc",
   "Mode": "Default",
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xspkszl9s1",
-      "Integrity": "X6jyRqZnVQDvh4dOfojzf05EzoRWTJB+rqu3i2IJd2w=",
+      "Fingerprint": "4vh6mi3c36",
+      "Integrity": "8C1LKvwreelmAtcnLr+/f9C+qZ7RrSTHMYitG7IN0Zw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
@@ -143,6 +143,111 @@
       "OriginalItemSpec": "wwwroot\\img\\empresa\\logo.jpeg"
     },
     {
+      "Identity": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\publicacao\\almoco.jpeg",
+      "SourceId": "SaborBrasilMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\",
+      "BasePath": "_content/SaborBrasilMvc",
+      "RelativePath": "img/publicacao/almoco#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o5lfyxx9zd",
+      "Integrity": "3O6pKYryPkcQGxQruJpkoP1nVOu+zMU1laUoiyyx+N4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\publicacao\\almoco.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\publicacao\\cafe.jpeg",
+      "SourceId": "SaborBrasilMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\",
+      "BasePath": "_content/SaborBrasilMvc",
+      "RelativePath": "img/publicacao/cafe#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gp81mlar6p",
+      "Integrity": "rHO6SOc2ctarar0DKY2TdLEH8L4Sk7hkXhvbd7LJ3PA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\publicacao\\cafe.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\publicacao\\doceLeite.jpeg",
+      "SourceId": "SaborBrasilMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\",
+      "BasePath": "_content/SaborBrasilMvc",
+      "RelativePath": "img/publicacao/doceLeite#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3o9ailaacj",
+      "Integrity": "jcrO+0mpKnG7kjTgKLoR2FOJ6aDsagzaxvyRgzIeQS0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\publicacao\\doceLeite.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\publicacao\\feijoada.jpeg",
+      "SourceId": "SaborBrasilMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\",
+      "BasePath": "_content/SaborBrasilMvc",
+      "RelativePath": "img/publicacao/feijoada#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ylersww7i6",
+      "Integrity": "SqE6zUnoKdKMRs3B41aU0ZuS2L5S5wKpM+8r5FHuKIE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\publicacao\\feijoada.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\publicacao\\pao.jpeg",
+      "SourceId": "SaborBrasilMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\",
+      "BasePath": "_content/SaborBrasilMvc",
+      "RelativePath": "img/publicacao/pao#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2qzu79owxc",
+      "Integrity": "Wrv7+QXe1ihthZV7CBNi5n53SFOW3mWXpfXegOHIMUQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\publicacao\\pao.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\usuario\\joao.jpeg",
       "SourceId": "SaborBrasilMvc",
       "SourceType": "Discovered",
@@ -178,8 +283,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "a9ygnr7z3q",
-      "Integrity": "bgQgNJCYDs974W5wSSWCyLENb8aQ9RC746mtAVWetho=",
+      "Fingerprint": "8i879sz8y7",
+      "Integrity": "0O/0yl94joZq6OVcx8YGeBAR63iLfBxJHUI8zD79Rko=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\script.js"
@@ -1487,6 +1592,51 @@
       ]
     },
     {
+      "Route": "css/styles.4vh6mi3c36.css",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3415"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8C1LKvwreelmAtcnLr+/f9C+qZ7RrSTHMYitG7IN0Zw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 11:59:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4vh6mi3c36"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8C1LKvwreelmAtcnLr+/f9C+qZ7RrSTHMYitG7IN0Zw="
+        }
+      ]
+    },
+    {
       "Route": "css/styles.css",
       "AssetFile": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\css\\styles.css",
       "Selectors": [],
@@ -1497,7 +1647,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1517"
+          "Value": "3415"
         },
         {
           "Name": "Content-Type",
@@ -1505,11 +1655,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"X6jyRqZnVQDvh4dOfojzf05EzoRWTJB+rqu3i2IJd2w=\""
+          "Value": "\"8C1LKvwreelmAtcnLr+/f9C+qZ7RrSTHMYitG7IN0Zw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 13:30:30 GMT"
+          "Value": "Mon, 19 May 2025 11:59:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1519,52 +1669,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-X6jyRqZnVQDvh4dOfojzf05EzoRWTJB+rqu3i2IJd2w="
-        }
-      ]
-    },
-    {
-      "Route": "css/styles.xspkszl9s1.css",
-      "AssetFile": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\css\\styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1517"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"X6jyRqZnVQDvh4dOfojzf05EzoRWTJB+rqu3i2IJd2w=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 13:30:30 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xspkszl9s1"
-        },
-        {
-          "Name": "label",
-          "Value": "css/styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-X6jyRqZnVQDvh4dOfojzf05EzoRWTJB+rqu3i2IJd2w="
+          "Value": "sha256-8C1LKvwreelmAtcnLr+/f9C+qZ7RrSTHMYitG7IN0Zw="
         }
       ]
     },
@@ -1733,6 +1838,416 @@
       ]
     },
     {
+      "Route": "img/publicacao/almoco.jpeg",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\publicacao\\almoco.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "214337"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3O6pKYryPkcQGxQruJpkoP1nVOu+zMU1laUoiyyx+N4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 10:55:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3O6pKYryPkcQGxQruJpkoP1nVOu+zMU1laUoiyyx+N4="
+        }
+      ]
+    },
+    {
+      "Route": "img/publicacao/almoco.o5lfyxx9zd.jpeg",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\publicacao\\almoco.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "214337"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3O6pKYryPkcQGxQruJpkoP1nVOu+zMU1laUoiyyx+N4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 10:55:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o5lfyxx9zd"
+        },
+        {
+          "Name": "label",
+          "Value": "img/publicacao/almoco.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3O6pKYryPkcQGxQruJpkoP1nVOu+zMU1laUoiyyx+N4="
+        }
+      ]
+    },
+    {
+      "Route": "img/publicacao/cafe.gp81mlar6p.jpeg",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\publicacao\\cafe.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rHO6SOc2ctarar0DKY2TdLEH8L4Sk7hkXhvbd7LJ3PA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 10:55:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gp81mlar6p"
+        },
+        {
+          "Name": "label",
+          "Value": "img/publicacao/cafe.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rHO6SOc2ctarar0DKY2TdLEH8L4Sk7hkXhvbd7LJ3PA="
+        }
+      ]
+    },
+    {
+      "Route": "img/publicacao/cafe.jpeg",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\publicacao\\cafe.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rHO6SOc2ctarar0DKY2TdLEH8L4Sk7hkXhvbd7LJ3PA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 10:55:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rHO6SOc2ctarar0DKY2TdLEH8L4Sk7hkXhvbd7LJ3PA="
+        }
+      ]
+    },
+    {
+      "Route": "img/publicacao/doceLeite.3o9ailaacj.jpeg",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\publicacao\\doceLeite.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25564"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jcrO+0mpKnG7kjTgKLoR2FOJ6aDsagzaxvyRgzIeQS0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 10:54:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3o9ailaacj"
+        },
+        {
+          "Name": "label",
+          "Value": "img/publicacao/doceLeite.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jcrO+0mpKnG7kjTgKLoR2FOJ6aDsagzaxvyRgzIeQS0="
+        }
+      ]
+    },
+    {
+      "Route": "img/publicacao/doceLeite.jpeg",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\publicacao\\doceLeite.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25564"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jcrO+0mpKnG7kjTgKLoR2FOJ6aDsagzaxvyRgzIeQS0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 10:54:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jcrO+0mpKnG7kjTgKLoR2FOJ6aDsagzaxvyRgzIeQS0="
+        }
+      ]
+    },
+    {
+      "Route": "img/publicacao/feijoada.jpeg",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\publicacao\\feijoada.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34278"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SqE6zUnoKdKMRs3B41aU0ZuS2L5S5wKpM+8r5FHuKIE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 10:54:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SqE6zUnoKdKMRs3B41aU0ZuS2L5S5wKpM+8r5FHuKIE="
+        }
+      ]
+    },
+    {
+      "Route": "img/publicacao/feijoada.ylersww7i6.jpeg",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\publicacao\\feijoada.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34278"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SqE6zUnoKdKMRs3B41aU0ZuS2L5S5wKpM+8r5FHuKIE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 10:54:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ylersww7i6"
+        },
+        {
+          "Name": "label",
+          "Value": "img/publicacao/feijoada.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SqE6zUnoKdKMRs3B41aU0ZuS2L5S5wKpM+8r5FHuKIE="
+        }
+      ]
+    },
+    {
+      "Route": "img/publicacao/pao.2qzu79owxc.jpeg",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\publicacao\\pao.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58906"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wrv7+QXe1ihthZV7CBNi5n53SFOW3mWXpfXegOHIMUQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 10:54:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2qzu79owxc"
+        },
+        {
+          "Name": "label",
+          "Value": "img/publicacao/pao.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wrv7+QXe1ihthZV7CBNi5n53SFOW3mWXpfXegOHIMUQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/publicacao/pao.jpeg",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\publicacao\\pao.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58906"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wrv7+QXe1ihthZV7CBNi5n53SFOW3mWXpfXegOHIMUQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 10:54:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wrv7+QXe1ihthZV7CBNi5n53SFOW3mWXpfXegOHIMUQ="
+        }
+      ]
+    },
+    {
       "Route": "img/usuario/joao.d5vvzo8fp0.jpeg",
       "AssetFile": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\usuario\\joao.jpeg",
       "Selectors": [],
@@ -1815,7 +2330,7 @@
       ]
     },
     {
-      "Route": "js/script.a9ygnr7z3q.js",
+      "Route": "js/script.8i879sz8y7.js",
       "AssetFile": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\js\\script.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1825,7 +2340,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3965"
+          "Value": "4077"
         },
         {
           "Name": "Content-Type",
@@ -1833,11 +2348,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bgQgNJCYDs974W5wSSWCyLENb8aQ9RC746mtAVWetho=\""
+          "Value": "\"0O/0yl94joZq6OVcx8YGeBAR63iLfBxJHUI8zD79Rko=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 15 May 2025 13:16:00 GMT"
+          "Value": "Mon, 19 May 2025 11:03:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1847,7 +2362,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "a9ygnr7z3q"
+          "Value": "8i879sz8y7"
         },
         {
           "Name": "label",
@@ -1855,7 +2370,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bgQgNJCYDs974W5wSSWCyLENb8aQ9RC746mtAVWetho="
+          "Value": "sha256-0O/0yl94joZq6OVcx8YGeBAR63iLfBxJHUI8zD79Rko="
         }
       ]
     },
@@ -1870,7 +2385,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3965"
+          "Value": "4077"
         },
         {
           "Name": "Content-Type",
@@ -1878,11 +2393,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bgQgNJCYDs974W5wSSWCyLENb8aQ9RC746mtAVWetho=\""
+          "Value": "\"0O/0yl94joZq6OVcx8YGeBAR63iLfBxJHUI8zD79Rko=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 15 May 2025 13:16:00 GMT"
+          "Value": "Mon, 19 May 2025 11:03:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1892,7 +2407,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bgQgNJCYDs974W5wSSWCyLENb8aQ9RC746mtAVWetho="
+          "Value": "sha256-0O/0yl94joZq6OVcx8YGeBAR63iLfBxJHUI8zD79Rko="
         }
       ]
     },
