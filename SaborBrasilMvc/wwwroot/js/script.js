@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const loginModal = new bootstrap.Modal(document.getElementById('loginModal'));
     const commentsModal = new bootstrap.Modal(document.getElementById('commentsModal'));
     let isLoggedIn = false;
+    let comentarioPublicacaoId = null;
 
     // Função para trocar o botão
     function setLoggedInUI() {
@@ -41,15 +42,102 @@ document.addEventListener('DOMContentLoaded', function() {
                 const titulo = btn.getAttribute('data-titulo');
                 const imagem = btn.getAttribute('data-imagem');
                 const local = btn.getAttribute('data-local');
+                comentarioPublicacaoId = btn.getAttribute('data-id');
 
                 // Preenche o modal
                 document.getElementById('modal-post-title').textContent = titulo;
                 document.querySelector('#commentsModal img.img-fluid').src = imagem;
                 document.getElementById('modal-post-location').innerHTML = `<i class="fas fa-map-marker-alt me-1"></i> ${local}`;
 
+                carregarComentarios(comentarioPublicacaoId);
                 commentsModal.show();
-                // Aqui você pode carregar os comentários da publicação usando btn.getAttribute('data-id')
             });
+        });
+    }
+
+    async function carregarComentarios(publicacaoId) {
+        const lista = document.getElementById('comments-list');
+        lista.innerHTML = '<div class="text-center text-muted">Carregando...</div>';
+        const resp = await fetch(`/Comentario/PorPublicacao/${publicacaoId}`);
+        const comentarios = await resp.json();
+        lista.innerHTML = '';
+        if (comentarios.length === 0) {
+            lista.innerHTML = '<div class="text-center text-muted">Nenhum comentário ainda.</div>';
+        } else {
+            comentarios.forEach(c => {
+                const div = document.createElement('div');
+                div.className = 'd-flex align-items-start mb-3';
+                div.innerHTML = `
+                    <img src="${c.fotoUsuario || '/img/user.png'}" class="rounded-circle me-2" style="width:40px;height:40px;object-fit:cover;">
+                    <div>
+                        <strong>${c.usuarioNome}</strong><br>
+                        <span>${c.texto}</span>
+                        ${c.podeEditar ? `
+                            <div>
+                                <button class="btn btn-sm btn-link text-primary editar-comentario" data-id="${c.comentarioId}">Editar</button>
+                                <button class="btn btn-sm btn-link text-danger excluir-comentario" data-id="${c.comentarioId}">Excluir</button>
+                            </div>
+                        ` : ''}
+                    </div>
+                `;
+                lista.appendChild(div);
+            });
+            adicionarEventosComentario();
+        }
+    }
+
+    // Envio do comentário
+    const commentText = document.getElementById('commentText');
+    const submitComment = document.getElementById('submitComment');
+    if (commentText && submitComment) {
+        commentText.addEventListener('input', function() {
+            submitComment.disabled = !commentText.value.trim();
+        });
+        submitComment.addEventListener('click', async function() {
+            if (!commentText.value.trim()) return;
+            const resp = await fetch('/Comentario/Adicionar', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ texto: commentText.value, publicacaoId: comentarioPublicacaoId })
+            });
+            if (!resp.ok) {
+                alert('Erro ao comentar: ' + (await resp.text()));
+                return;
+            }
+            commentText.value = '';
+            submitComment.disabled = true;
+            carregarComentarios(comentarioPublicacaoId);
+        });
+    }
+
+    // Editar/Excluir comentário
+    function adicionarEventosComentario() {
+        document.querySelectorAll('.editar-comentario').forEach(btn => {
+            btn.onclick = async function() {
+                const id = btn.getAttribute('data-id');
+                const novoTexto = prompt('Editar comentário:');
+                if (novoTexto && novoTexto.trim()) {
+                    await fetch('/Comentario/Editar', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ id, texto: novoTexto })
+                    });
+                    carregarComentarios(comentarioPublicacaoId);
+                }
+            };
+        });
+        document.querySelectorAll('.excluir-comentario').forEach(btn => {
+            btn.onclick = async function() {
+                const id = btn.getAttribute('data-id');
+                if (confirm('Deseja excluir este comentário?')) {
+                    await fetch('/Comentario/Excluir', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ id })
+                    });
+                    carregarComentarios(comentarioPublicacaoId);
+                }
+            };
         });
     }
 

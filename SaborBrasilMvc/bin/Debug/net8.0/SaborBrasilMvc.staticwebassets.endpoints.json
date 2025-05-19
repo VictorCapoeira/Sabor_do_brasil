@@ -905,6 +905,51 @@
       ]
     },
     {
+      "Route": "js/script.3q69lvyar6.js",
+      "AssetFile": "js/script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8763"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tcTD0NpadQGFg9cja90isNiotLvwMG+FV8dk0ZjhfCg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 14:01:50 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3q69lvyar6"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tcTD0NpadQGFg9cja90isNiotLvwMG+FV8dk0ZjhfCg="
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js"
+        }
+      ]
+    },
+    {
       "Route": "js/script.js",
       "AssetFile": "js/script.js",
       "Selectors": [],
@@ -919,7 +964,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4655"
+          "Value": "8763"
         },
         {
           "Name": "Content-Type",
@@ -927,62 +972,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z+MLz7BOvm0U6WZKrop+uIoyJaYUybOdr+6AEJcUGFk=\""
+          "Value": "\"tcTD0NpadQGFg9cja90isNiotLvwMG+FV8dk0ZjhfCg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 13:03:40 GMT"
+          "Value": "Mon, 19 May 2025 14:01:50 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-z+MLz7BOvm0U6WZKrop+uIoyJaYUybOdr+6AEJcUGFk="
-        }
-      ]
-    },
-    {
-      "Route": "js/script.v4m39ymido.js",
-      "AssetFile": "js/script.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4655"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"z+MLz7BOvm0U6WZKrop+uIoyJaYUybOdr+6AEJcUGFk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 13:03:40 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "v4m39ymido"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-z+MLz7BOvm0U6WZKrop+uIoyJaYUybOdr+6AEJcUGFk="
-        },
-        {
-          "Name": "label",
-          "Value": "js/script.js"
+          "Value": "sha256-tcTD0NpadQGFg9cja90isNiotLvwMG+FV8dk0ZjhfCg="
         }
       ]
     },

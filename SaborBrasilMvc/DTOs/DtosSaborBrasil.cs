@@ -44,7 +44,7 @@ namespace DtosBrasil
         public string Texto { get; set; }
         public string UsuarioNome { get; set; }
         public string FotoUsuario { get; set; }
-        // Outros campos... 
+        // Outros campos...
     }
 
     public class LoginDto
