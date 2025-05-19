@@ -37,6 +37,16 @@ document.addEventListener('DOMContentLoaded', function() {
     if (commentBtns) {
         commentBtns.forEach(btn => {
             btn.addEventListener('click', function() {
+                // Pega os dados do botão
+                const titulo = btn.getAttribute('data-titulo');
+                const imagem = btn.getAttribute('data-imagem');
+                const local = btn.getAttribute('data-local');
+
+                // Preenche o modal
+                document.getElementById('modal-post-title').textContent = titulo;
+                document.querySelector('#commentsModal img.img-fluid').src = imagem;
+                document.getElementById('modal-post-location').innerHTML = `<i class="fas fa-map-marker-alt me-1"></i> ${local}`;
+
                 commentsModal.show();
                 // Aqui você pode carregar os comentários da publicação usando btn.getAttribute('data-id')
             });

@@ -191,3 +191,16 @@ body {
 .comentarios {
   margin-left: auto;
 }
+
+.modal-img-centralizada {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+.modal-img-centralizada:hover {
+    transform: scale(1.08);
+}

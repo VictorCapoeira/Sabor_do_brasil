@@ -60,31 +60,6 @@
                             {
                                 foreach (var pub in Model.Publicacoes)
                                 {
-                                    @* <div class="post mb-4 card">
-                                        <div class="titulo">@pub.Titulo</div>
-                                        <img src="@(Url.Content("~/" + pub.Imagem))" alt="Prato gastronômico" class="imagem-prato" />
-                                        
-                                        <div class="info">
-                                            <span class="post-desc">@pub.Descricao</span>
-                                            <span class="local">
-                                                <i class="fas fa-map-marker-alt me-1"></i> @pub.Local
-                                            </span>
-                                        </div>
-                                        <div class="interactions">
-                                            <div class="likes">
-                                                <button class="btn btn-sm btn-like like @(pub.UsuarioCurtiu ? "active" : "")" data-id="@pub.Id">
-                                                <i class="far fa-thumbs-up"></i> <span>@pub.Likes</span>
-                                            </button>
-                                            <button class="btn btn-sm btn-dislike dislike @(pub.UsuarioDescurtiu ? "active" : "")" data-id="@pub.Id">
-                                                <i class="far fa-thumbs-down"></i> <span>@pub.Dislikes</span>
-                                            </button>
-                                            </div>
-                                            
-                                            <button class="btn btn-sm btn-comment comentarios" data-id="@pub.Id" title="Comentar">
-                                                <i class="far fa-comment"></i>
-                                            </button>
-                                        </div>
-                                    </div> *@
                                     <div class="card">
                                         <h3 class="titulo">@pub.Titulo</h3>
                                         <img src="@(Url.Content("~/" + pub.Imagem))" alt="Prato gastronômico" class="imagem-prato">
@@ -105,7 +80,12 @@
                                                 <i class="far fa-thumbs-down"></i> <span>@pub.Dislikes</span>
                                             </button>
                                             </div>
-                                            <button class="btn btn-sm btn-comment comentarios" data-id="@pub.Id" title="Comentar">
+                                            <button class="btn btn-sm btn-comment comentarios"
+                                                    data-id="@pub.Id"
+                                                    data-titulo="@pub.Titulo"
+                                                    data-imagem="@(Url.Content("~/" + pub.Imagem))"
+                                                    data-local="@pub.Local"
+                                                    title="Comentar">
                                                 <i class="far fa-comment"></i>
                                             </button>
                                         </div>
@@ -186,8 +166,8 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body">
-                    <div class="mb-4">
-                        <img src="prato1.jpg" alt="Prato" class="img-fluid rounded mb-2">
+                    <div class="mb-4 text-center">
+                        <img src="prato1.jpg" alt="Prato" class="img-fluid rounded mb-2 modal-img-centralizada">
                         <h4 id="modal-post-title">Título do Prato</h4>
                         <p class="text-muted" id="modal-post-location"><i class="fas fa-map-marker-alt me-1"></i> Local - Cidade/UF</p>
                     </div>
