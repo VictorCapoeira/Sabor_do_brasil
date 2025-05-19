@@ -26,4 +26,5 @@ INSERT INTO comentarios (texto, date, usuario_id, publicacao_id, foto) VALUES
 ('Já quero provar esse doce!', CURDATE(), 4, 3, 'img/comentarios/comentario03.jpeg'),
 ('Café + bolo = amor', CURDATE(), 5, 4, 'img/comentarios/comentario04.jpeg'),
 ('Melhor almoço da região!', CURDATE(), 1, 5, 'img/comentarios/comentario05.jpeg');
-select * from publicacoes;
+select * from comentarios;
+truncate comentarios;
