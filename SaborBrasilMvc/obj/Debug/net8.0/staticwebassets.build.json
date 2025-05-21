@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GfO1HjiPKLmHQoBD5hkN0uqCa2nC3dVRyiqfgC7Ir0s=",
+  "Hash": "gqaotsD6j+rFUihsIQTtfWgD9j2GibBICH2O5am9MF0=",
   "Source": "SaborBrasilMvc",
   "BasePath": "_content/SaborBrasilMvc",
   "Mode": "Default",
@@ -283,8 +283,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3q69lvyar6",
-      "Integrity": "tcTD0NpadQGFg9cja90isNiotLvwMG+FV8dk0ZjhfCg=",
+      "Fingerprint": "wgx2cugnvo",
+      "Integrity": "EGYT6RXfGDPnKTpx5YQrd76YsStFM4NLFDcGF6JMlns=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\script.js"
@@ -2330,51 +2330,6 @@
       ]
     },
     {
-      "Route": "js/script.3q69lvyar6.js",
-      "AssetFile": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\js\\script.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8763"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tcTD0NpadQGFg9cja90isNiotLvwMG+FV8dk0ZjhfCg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 14:01:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3q69lvyar6"
-        },
-        {
-          "Name": "label",
-          "Value": "js/script.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-tcTD0NpadQGFg9cja90isNiotLvwMG+FV8dk0ZjhfCg="
-        }
-      ]
-    },
-    {
       "Route": "js/script.js",
       "AssetFile": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\js\\script.js",
       "Selectors": [],
@@ -2385,7 +2340,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8763"
+          "Value": "8809"
         },
         {
           "Name": "Content-Type",
@@ -2393,11 +2348,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tcTD0NpadQGFg9cja90isNiotLvwMG+FV8dk0ZjhfCg=\""
+          "Value": "\"EGYT6RXfGDPnKTpx5YQrd76YsStFM4NLFDcGF6JMlns=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 14:01:50 GMT"
+          "Value": "Wed, 21 May 2025 11:08:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2407,7 +2362,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-tcTD0NpadQGFg9cja90isNiotLvwMG+FV8dk0ZjhfCg="
+          "Value": "sha256-EGYT6RXfGDPnKTpx5YQrd76YsStFM4NLFDcGF6JMlns="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.wgx2cugnvo.js",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8809"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EGYT6RXfGDPnKTpx5YQrd76YsStFM4NLFDcGF6JMlns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 11:08:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wgx2cugnvo"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EGYT6RXfGDPnKTpx5YQrd76YsStFM4NLFDcGF6JMlns="
         }
       ]
     },

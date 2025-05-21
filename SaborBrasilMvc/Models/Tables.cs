@@ -78,6 +78,6 @@ namespace SaborBrasilTabelas.Models
         [Column("publicacao_id")]
         public int PublicacaoId { get; set; }
         public Publicacao Publicacao { get; set; }
-        public string Foto { get; set; }
+        public string? Foto { get; set; } // <-- Corrigido aqui!
     }
 }

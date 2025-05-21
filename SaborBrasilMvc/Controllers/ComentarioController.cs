@@ -74,7 +74,16 @@ namespace SaborBrasilMvc.Controllers
         {
             var usuarioId = HttpContext.Session.GetInt32("UsuarioId");
             var comentario = await _context.Comentarios.FindAsync(dto.Id);
-            if (comentario == null || comentario.UsuarioId != usuarioId) return Forbid();
+            if (comentario == null)
+            {
+                Console.WriteLine($"Comentário não encontrado para Id={dto.Id}");
+                return NotFound("Comentário não encontrado");
+            }
+            if (comentario.UsuarioId != usuarioId)
+            {
+                Console.WriteLine($"Usuário não autorizado. UsuarioId={usuarioId}, Comentario.UsuarioId={comentario.UsuarioId}");
+                return Forbid();
+            }
 
             comentario.Texto = dto.Texto ?? string.Empty;
             await _context.SaveChangesAsync();
@@ -86,7 +95,16 @@ namespace SaborBrasilMvc.Controllers
         {
             var usuarioId = HttpContext.Session.GetInt32("UsuarioId");
             var comentario = await _context.Comentarios.FindAsync(dto.Id);
-            if (comentario == null || comentario.UsuarioId != usuarioId) return Forbid();
+            if (comentario == null)
+            {
+                Console.WriteLine($"Comentário não encontrado para Id={dto.Id}");
+                return NotFound("Comentário não encontrado");
+            }
+            if (comentario.UsuarioId != usuarioId)
+            {
+                Console.WriteLine($"Usuário não autorizado. UsuarioId={usuarioId}, Comentario.UsuarioId={comentario.UsuarioId}");
+                return Forbid();
+            }
 
             _context.Comentarios.Remove(comentario);
             await _context.SaveChangesAsync();

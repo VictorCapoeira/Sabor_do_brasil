@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     await fetch('/Comentario/Editar', {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({ id, texto: novoTexto })
+                        body: JSON.stringify({ Id: id, Texto: novoTexto }) // Corrigido aqui!
                     });
                     carregarComentarios(comentarioPublicacaoId);
                 }
@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     await fetch('/Comentario/Excluir', {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({ id })
+                        body: JSON.stringify({ Id: id }) // Corrigido aqui!
                     });
                     carregarComentarios(comentarioPublicacaoId);
                 }
