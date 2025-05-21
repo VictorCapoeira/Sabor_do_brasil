@@ -120,17 +120,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-j61RErNSDiSiU\u002BvVth6ezOaNW5/ShnpP0fTUx0vQPa4="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"14106"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022j61RErNSDiSiU\u002BvVth6ezOaNW5/ShnpP0fTUx0vQPa4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 19 May 2025 12:57:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/SaborBrasilMvc/js/script.6bzn24sf2t.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\script.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6bzn24sf2t"},{"Name":"integrity","Value":"sha256-fpsvAQQ5Z4j41TCelxdfP8\u002B6kYJmubdA6DIp8Gj7O98="},{"Name":"label","Value":"_content/SaborBrasilMvc/js/script.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10663"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022fpsvAQQ5Z4j41TCelxdfP8\u002B6kYJmubdA6DIp8Gj7O98=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 11:37:57 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SaborBrasilMvc/js/script.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\script.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fpsvAQQ5Z4j41TCelxdfP8\u002B6kYJmubdA6DIp8Gj7O98="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10663"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022fpsvAQQ5Z4j41TCelxdfP8\u002B6kYJmubdA6DIp8Gj7O98=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 11:37:57 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hrkboE\u002B6xA/DeTjYjlK5WzllOWJ8dmSq/x\u002BULdpqggU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10895"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hrkboE\u002B6xA/DeTjYjlK5WzllOWJ8dmSq/x\u002BULdpqggU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 11:57:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SaborBrasilMvc/js/script.u72x5ua3wz.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\script.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"u72x5ua3wz"},{"Name":"integrity","Value":"sha256-hrkboE\u002B6xA/DeTjYjlK5WzllOWJ8dmSq/x\u002BULdpqggU="},{"Name":"label","Value":"_content/SaborBrasilMvc/js/script.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10895"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hrkboE\u002B6xA/DeTjYjlK5WzllOWJ8dmSq/x\u002BULdpqggU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 11:57:03 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SaborBrasilMvc/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

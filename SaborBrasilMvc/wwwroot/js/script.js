@@ -38,6 +38,10 @@ document.addEventListener('DOMContentLoaded', function() {
     if (commentBtns) {
         commentBtns.forEach(btn => {
             btn.addEventListener('click', function() {
+                if (!isLoggedIn) {
+                    loginModal.show();
+                    return;
+                }
                 // Pega os dados do botão
                 const titulo = btn.getAttribute('data-titulo');
                 const imagem = btn.getAttribute('data-imagem');
@@ -229,6 +233,10 @@ document.addEventListener('DOMContentLoaded', function() {
     // Like/Deslike AJAX
     document.querySelectorAll('.btn-like, .btn-dislike').forEach(btn => {
         btn.addEventListener('click', async function() {
+            if (!isLoggedIn) {
+                loginModal.show();
+                return;
+            }
             const isLike = this.classList.contains('btn-like');
             const pubId = this.getAttribute('data-id');
             const url = isLike ? '/Interacao/Like' : '/Interacao/Deslike';
