@@ -204,3 +204,14 @@ body {
 .modal-img-centralizada:hover {
     transform: scale(1.08);
 }
+
+.edit-area {
+    width: 100%;
+    min-height: 60px;
+    margin-bottom: 8px;
+    resize: vertical;
+}
+
+.comentario-acoes-editar {
+    margin-top: 12px;
+}
