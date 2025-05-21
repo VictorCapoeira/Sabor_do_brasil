@@ -73,9 +73,9 @@ document.addEventListener('DOMContentLoaded', function() {
                         <strong>${c.usuarioNome}</strong><br>
                         <span>${c.texto}</span>
                         ${c.podeEditar ? `
-                            <div>
-                                <button class="btn btn-sm btn-link text-primary editar-comentario" data-id="${c.comentarioId}">Editar</button>
-                                <button class="btn btn-sm btn-link text-danger excluir-comentario" data-id="${c.comentarioId}">Excluir</button>
+                            <div class="comentario-acoes-editar">
+                                <button class="btn btn-sm btn-link text-primary editar-comentario" data-id="${c.comentarioId}"><i class="fa-solid fa-pen-to-square"></i></button>
+                                <button class="btn btn-sm btn-link text-danger excluir-comentario" data-id="${c.comentarioId}"><i class="fa-solid fa-trash"></i></button> 
                             </div>
                         ` : ''}
                     </div>
@@ -113,19 +113,58 @@ document.addEventListener('DOMContentLoaded', function() {
     // Editar/Excluir comentário
     function adicionarEventosComentario() {
         document.querySelectorAll('.editar-comentario').forEach(btn => {
-            btn.onclick = async function() {
-                const id = btn.getAttribute('data-id');
-                const novoTexto = prompt('Editar comentário:');
-                if (novoTexto && novoTexto.trim()) {
-                    await fetch('/Comentario/Editar', {
+            btn.onclick = function() {
+                const divComentario = btn.closest('.d-flex.align-items-start.mb-3');
+                const spanTexto = divComentario.querySelector('span');
+                const textoOriginal = spanTexto.textContent;
+
+                // Evita múltiplas áreas de edição
+                if (divComentario.querySelector('.edit-area')) return;
+
+                // Cria textarea e botões
+                const textarea = document.createElement('textarea');
+                textarea.className = 'form-control edit-area mb-2';
+                textarea.value = textoOriginal;
+
+                const btnSalvar = document.createElement('button');
+                btnSalvar.textContent = 'Salvar';
+                btnSalvar.className = 'btn btn-sm btn-success me-2';
+
+                const btnCancelar = document.createElement('button');
+                btnCancelar.textContent = 'Cancelar';
+                btnCancelar.className = 'btn btn-sm btn-secondary';
+
+                // Substitui o texto pelo editor
+                spanTexto.style.display = 'none';
+                spanTexto.parentNode.insertBefore(textarea, spanTexto);
+                spanTexto.parentNode.insertBefore(btnSalvar, spanTexto.nextSibling);
+                spanTexto.parentNode.insertBefore(btnCancelar, btnSalvar.nextSibling);
+
+                btnSalvar.onclick = async function() {
+                    const novoTexto = textarea.value.trim();
+                    if (!novoTexto) return;
+                    const id = btn.getAttribute('data-id');
+                    const resp = await fetch('/Comentario/Editar', {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({ id, texto: novoTexto })
+                        body: JSON.stringify({ Id: id, Texto: novoTexto })
                     });
-                    carregarComentarios(comentarioPublicacaoId);
-                }
+                    if (resp.ok) {
+                        carregarComentarios(comentarioPublicacaoId);
+                    } else {
+                        alert('Erro ao editar: ' + (await resp.text()));
+                    }
+                };
+
+                btnCancelar.onclick = function() {
+                    textarea.remove();
+                    btnSalvar.remove();
+                    btnCancelar.remove();
+                    spanTexto.style.display = '';
+                };
             };
         });
+
         document.querySelectorAll('.excluir-comentario').forEach(btn => {
             btn.onclick = async function() {
                 const id = btn.getAttribute('data-id');
@@ -133,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     await fetch('/Comentario/Excluir', {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({ id })
+                        body: JSON.stringify({ Id: id })
                     });
                     carregarComentarios(comentarioPublicacaoId);
                 }
