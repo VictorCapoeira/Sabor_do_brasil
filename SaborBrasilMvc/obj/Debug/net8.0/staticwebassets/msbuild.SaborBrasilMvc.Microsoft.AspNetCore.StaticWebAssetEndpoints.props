@@ -124,13 +124,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\script.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6bzn24sf2t"},{"Name":"integrity","Value":"sha256-fpsvAQQ5Z4j41TCelxdfP8\u002B6kYJmubdA6DIp8Gj7O98="},{"Name":"label","Value":"_content/SaborBrasilMvc/js/script.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10663"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022fpsvAQQ5Z4j41TCelxdfP8\u002B6kYJmubdA6DIp8Gj7O98=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 11:37:57 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10663"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022fpsvAQQ5Z4j41TCelxdfP8\u002B6kYJmubdA6DIp8Gj7O98=\u0022"},{"Name":"Last-Modified","Value":"Thu, 12 Jun 2025 11:50:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SaborBrasilMvc/js/script.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\script.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fpsvAQQ5Z4j41TCelxdfP8\u002B6kYJmubdA6DIp8Gj7O98="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10663"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022fpsvAQQ5Z4j41TCelxdfP8\u002B6kYJmubdA6DIp8Gj7O98=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 11:37:57 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10663"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022fpsvAQQ5Z4j41TCelxdfP8\u002B6kYJmubdA6DIp8Gj7O98=\u0022"},{"Name":"Last-Modified","Value":"Thu, 12 Jun 2025 11:50:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SaborBrasilMvc/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

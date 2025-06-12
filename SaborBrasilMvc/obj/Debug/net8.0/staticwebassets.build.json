@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TahJMqTcNNE2KkfyLJZJSgaNyJqlfAlH+I8+Jgl+ph4=",
+  "Hash": "cETdGv/MLy7ne1/7OJXjUfSxi/EFEGj2JvH50+zzyBs=",
   "Source": "SaborBrasilMvc",
   "BasePath": "_content/SaborBrasilMvc",
   "Mode": "Default",
@@ -2352,7 +2352,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 11:37:57 GMT"
+          "Value": "Thu, 12 Jun 2025 11:50:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2397,7 +2397,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 11:37:57 GMT"
+          "Value": "Thu, 12 Jun 2025 11:50:26 GMT"
         },
         {
           "Name": "Cache-Control",
