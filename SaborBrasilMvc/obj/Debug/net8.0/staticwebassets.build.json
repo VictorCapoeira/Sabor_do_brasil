@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UPxqaur8CiIwFdIYzcCQvCq0VLAvXsmEXa6/B1a2gN0=",
+  "Hash": "ztyMAr5MUgDZ2um3y8XBo6qzd9gr3sKQa/yfIolnMMg=",
   "Source": "SaborBrasilMvc",
   "BasePath": "_content/SaborBrasilMvc",
   "Mode": "Default",
@@ -267,6 +267,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\usuario\\joao.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\usuario\\maria.jpeg",
+      "SourceId": "SaborBrasilMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\",
+      "BasePath": "_content/SaborBrasilMvc",
+      "RelativePath": "img/usuario/maria#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7ja34bwu1y",
+      "Integrity": "E2jUYfImSCVQPal3n4zwwiIWz6myHHwOK0xCAThM6p0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\usuario\\maria.jpeg"
     },
     {
       "Identity": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\js\\script.js",
@@ -2326,6 +2347,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-j61RErNSDiSiU+vVth6ezOaNW5/ShnpP0fTUx0vQPa4="
+        }
+      ]
+    },
+    {
+      "Route": "img/usuario/maria.7ja34bwu1y.jpeg",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\usuario\\maria.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62067"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E2jUYfImSCVQPal3n4zwwiIWz6myHHwOK0xCAThM6p0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 11:08:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7ja34bwu1y"
+        },
+        {
+          "Name": "label",
+          "Value": "img/usuario/maria.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E2jUYfImSCVQPal3n4zwwiIWz6myHHwOK0xCAThM6p0="
+        }
+      ]
+    },
+    {
+      "Route": "img/usuario/maria.jpeg",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\wwwroot\\img\\usuario\\maria.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62067"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E2jUYfImSCVQPal3n4zwwiIWz6myHHwOK0xCAThM6p0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 11:08:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E2jUYfImSCVQPal3n4zwwiIWz6myHHwOK0xCAThM6p0="
         }
       ]
     },
