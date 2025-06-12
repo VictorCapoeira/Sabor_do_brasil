@@ -120,6 +120,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-j61RErNSDiSiU\u002BvVth6ezOaNW5/ShnpP0fTUx0vQPa4="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"14106"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022j61RErNSDiSiU\u002BvVth6ezOaNW5/ShnpP0fTUx0vQPa4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 19 May 2025 12:57:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SaborBrasilMvc/img/usuario/maria.7ja34bwu1y.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\usuario\maria.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7ja34bwu1y"},{"Name":"integrity","Value":"sha256-E2jUYfImSCVQPal3n4zwwiIWz6myHHwOK0xCAThM6p0="},{"Name":"label","Value":"_content/SaborBrasilMvc/img/usuario/maria.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62067"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022E2jUYfImSCVQPal3n4zwwiIWz6myHHwOK0xCAThM6p0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 11:08:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SaborBrasilMvc/img/usuario/maria.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\usuario\maria.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-E2jUYfImSCVQPal3n4zwwiIWz6myHHwOK0xCAThM6p0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"62067"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022E2jUYfImSCVQPal3n4zwwiIWz6myHHwOK0xCAThM6p0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 11:08:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SaborBrasilMvc/js/script.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\script.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

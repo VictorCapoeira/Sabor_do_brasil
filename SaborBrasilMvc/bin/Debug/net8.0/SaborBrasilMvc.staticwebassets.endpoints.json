@@ -905,6 +905,88 @@
       ]
     },
     {
+      "Route": "img/usuario/maria.7ja34bwu1y.jpeg",
+      "AssetFile": "img/usuario/maria.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62067"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E2jUYfImSCVQPal3n4zwwiIWz6myHHwOK0xCAThM6p0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 11:08:41 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7ja34bwu1y"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E2jUYfImSCVQPal3n4zwwiIWz6myHHwOK0xCAThM6p0="
+        },
+        {
+          "Name": "label",
+          "Value": "img/usuario/maria.jpeg"
+        }
+      ]
+    },
+    {
+      "Route": "img/usuario/maria.jpeg",
+      "AssetFile": "img/usuario/maria.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62067"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E2jUYfImSCVQPal3n4zwwiIWz6myHHwOK0xCAThM6p0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 11:08:41 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E2jUYfImSCVQPal3n4zwwiIWz6myHHwOK0xCAThM6p0="
+        }
+      ]
+    },
+    {
       "Route": "js/script.js",
       "AssetFile": "js/script.js",
       "Selectors": [],
