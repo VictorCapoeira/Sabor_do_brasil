@@ -15,14 +15,14 @@
     <StaticWebAssetEndpoint Include="_content/SaborBrasilMvc/css/styles.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ftf4S8Q4r5yuI0iJpm/2xXg4wk45fmMbnhftplVOBpc="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3839"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ftf4S8Q4r5yuI0iJpm/2xXg4wk45fmMbnhftplVOBpc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 11:35:28 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eL3H\u002BHG\u002BuHjqZF80/0wNa\u002BArTrEPcZuRsTG9mRbs/MA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3951"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022eL3H\u002BHG\u002BuHjqZF80/0wNa\u002BArTrEPcZuRsTG9mRbs/MA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 12 Jun 2025 12:05:43 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/SaborBrasilMvc/css/styles.e9rqg7p8hx.css">
+    <StaticWebAssetEndpoint Include="_content/SaborBrasilMvc/css/styles.o8l8p38onb.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e9rqg7p8hx"},{"Name":"integrity","Value":"sha256-ftf4S8Q4r5yuI0iJpm/2xXg4wk45fmMbnhftplVOBpc="},{"Name":"label","Value":"_content/SaborBrasilMvc/css/styles.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3839"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ftf4S8Q4r5yuI0iJpm/2xXg4wk45fmMbnhftplVOBpc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 11:35:28 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o8l8p38onb"},{"Name":"integrity","Value":"sha256-eL3H\u002BHG\u002BuHjqZF80/0wNa\u002BArTrEPcZuRsTG9mRbs/MA="},{"Name":"label","Value":"_content/SaborBrasilMvc/css/styles.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3951"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022eL3H\u002BHG\u002BuHjqZF80/0wNa\u002BArTrEPcZuRsTG9mRbs/MA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 12 Jun 2025 12:05:43 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SaborBrasilMvc/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
