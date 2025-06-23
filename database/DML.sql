@@ -5,7 +5,7 @@ INSERT INTO usuarios (nome, email, apelido, senha, foto) VALUES
 ('Ana Paula', 'ana@gmail.com', 'aninha', 'senha123', 'img/usuario/ana.jpeg'),
 ('Fernanda Lima', 'fernanda@gmail.com', 'ferlima', 'senha123', 'wwwroot/img/usuario/fernanda.jpeg');
 INSERT INTO empresas (nome, logo) VALUES
-('Delícias de Minas', 'img/empresa/logo.jpeg');
+('Sabor do Brasil', 'img/empresa/logo.jpeg');
 INSERT INTO empresas_endereco (estado, cidade, bairro, rua, numero, empresa_id) VALUES
 ('MG', 'Belo Horizonte', 'Centro', 'Rua das Flores', '100', 1);
 INSERT INTO publicacoes (titulo, imagem, descricao, local, empresa_id, usuario_id) VALUES
@@ -27,4 +27,5 @@ INSERT INTO comentarios (texto, date, usuario_id, publicacao_id, foto) VALUES
 ('Café + bolo = amor', CURDATE(), 5, 4, 'img/comentarios/comentario04.jpeg'),
 ('Melhor almoço da região!', CURDATE(), 1, 5, 'img/comentarios/comentario05.jpeg');
 select * from comentarios;
-truncate comentarios;
+truncate empresas;
+update empresas set nome="Sabor do Brasil" where id = 1;

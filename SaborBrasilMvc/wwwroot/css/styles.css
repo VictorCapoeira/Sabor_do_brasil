@@ -2,8 +2,11 @@ body {
     font-family: 'Inter', sans-serif;
     background-color: #f8f9fa;
 }
-.img-fluid{
+.img-fluid {
     max-width: 150px;
+    border-radius: 50%; /* Deixa a imagem redonda */
+    object-fit: cover;
+    aspect-ratio: 1/1; /* Garante proporção quadrada */
 }
 .fa-thumbs-up{
     color: #D97014;
@@ -93,9 +96,52 @@ body {
     background-color: #D97014; 
     color: #FFFFFF;
 }
-.footer{
-    background-color: #D97014; 
+.footer {
+    background-color: #D97014 !important;
     color: #FFFFFF;
+    width: 100vw;
+    left: 0;
+    margin-left: calc(-50vw + 50%);
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 0 !important;
+    bottom: 0 !important;
+}
+.footer .d-flex {
+    justify-content: space-between !important;
+    align-items: center;
+    gap: 0 !important;
+    padding: 0 16px;
+}
+
+.footer span,
+.footer div,
+.footer a {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.footer .mx-2 {
+    margin-left: 8px !important;
+    margin-right: 0 !important;
+}
+
+.footer .d-flex > * {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.footer .d-flex > div {
+    display: flex;
+    gap: 12px; /* Aproxima os ícones */
+}
+
+@media (min-width: 768px) {
+    .footer .d-flex {
+        max-width: 100%;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
 }
 .btn-like.active i {
     color: #FF0000;
@@ -206,12 +252,72 @@ body {
 }
 
 .edit-area {
-    width: 100%;
-    min-height: 60px;
-    margin-bottom: 8px;
+    width: 100% !important;
+    min-width: 0;
+    box-sizing: border-box;
     resize: vertical;
 }
 
 .comentario-acoes-editar {
     margin-top: 12px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.modal-footer {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 10px;
+    padding: 0;
+}
+
+.modal-footer .btn {
+    flex-grow: 1;
+    /* width: 100%; */
+    margin: 0;
+    border-radius: 8px;
+}
+.btn-entrar{
+    background-color: #D97014; 
+    color: #FFFFFF;
+}
+.btn-sair{
+    background-color: transparent;
+    border-color: #D97014;
+}
+.footer-centralizado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px; /* Ajuste o valor para mais ou menos espaço entre os itens */
+    width: 100%;
+}
+
+.footer-centralizado span,
+.footer-centralizado a {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-centralizado .footer-nome {
+    font-weight: bold;
+}
+
+.footer-centralizado .footer-copy {
+    margin-left: 8px;
+}
+
+.pb-3{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Botão "Atualizar" laranja */
+.btn-atualizar {
+    background-color: #D97014 !important;
+    color: #fff !important;
+    border: none;
 }

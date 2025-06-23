@@ -22,7 +22,7 @@
                 {
                      <div class="col-md-3 bg-light p-4" id="profile-column">
                 <div class="text-center mb-4">
-                    <img src="@(Url.Content("~/" + Model.Empresa.Logo))" alt="Logo da Empresa" class="img-fluid mb-3">
+                    <img src="@(Url.Content("~/" + Model.Empresa.Logo))" alt="Logo da Empresa" class="img-fluid mb-3" style="border-radius: 50%;">
                     <h3 class="fw-bold" id="company-name">@Model.Empresa.Nome</h3>
                     <div class="divider"></div>
                 </div>
@@ -74,11 +74,31 @@
                                         <div class="interacoes">
                                             <div class="likes">
                                                 <button class="btn btn-sm btn-like like @(pub.UsuarioCurtiu ? "active" : "")" data-id="@pub.Id">
-                                                    <i class="far fa-thumbs-up"></i> <span>@pub.Likes</span>
+                                                    @if (pub.UsuarioCurtiu)
+                                                    {
+                                                        <!-- Like preenchido -->
+                                                        <img src="~/img/icones/flecha_cima_cheia.svg" alt="Like preenchido" style="width:20px;height:20px;vertical-align:middle;">
+                                                    }
+                                                    else
+                                                    {
+                                                        <!-- Like padrão -->
+                                                        <img src="~/img/icones/flecha_cima_vazia.svg" alt="Like" style="width:20px;height:20px;vertical-align:middle;">
+                                                    }
+                                                    <span>@pub.Likes</span>
                                                 </button>
                                                 <button class="btn btn-sm btn-dislike dislike @(pub.UsuarioDescurtiu ? "active" : "")" data-id="@pub.Id">
-                                                <i class="far fa-thumbs-down"></i> <span>@pub.Dislikes</span>
-                                            </button>
+                                                    @if (pub.UsuarioDescurtiu)
+                                                    {
+                                                        <!-- Dislike preenchido -->
+                                                        <img src="~/img/icones/flecha_baixo_cheia.svg" alt="Dislike preenchido" style="width:20px;height:20px;vertical-align:middle;">
+                                                    }
+                                                    else
+                                                    {
+                                                        <!-- Dislike padrão -->
+                                                        <img src="~/img/icones/flecha_baixo_vazia.svg" alt="Dislike" style="width:20px;height:20px;vertical-align:middle;">
+                                                    }
+                                                    <span>@pub.Dislikes</span>
+                                                </button>
                                             </div>
                                             <button class="btn btn-sm btn-comment comentarios"
                                                     data-id="@pub.Id"
@@ -86,8 +106,9 @@
                                                     data-imagem="@(Url.Content("~/" + pub.Imagem))"
                                                     data-local="@pub.Local"
                                                     title="Comentar">
-                                                <i class="far fa-comment"></i>
+                                                <img src="~/img/icones/chat.svg" alt="cometario" style="width:20px;height:20px;vertical-align:middle;">
                                             </button>
+                                            <span class="comentarios-contador" style="margin-left:4px;">@pub.Comentarios</span>
                                         </div>
                                     </div>
                                 }
@@ -110,20 +131,18 @@
         </div>
 
         <!-- Rodapé -->
-        <footer class="py-3 footer" >
-            <div class="container-fluid">
-                <div class="d-flex justify-content-between align-items-center">
-                    <span>Delicias de minas</span>
-                    <div>
-                        <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="text-white mx-2"><i class="fab fa-whatsapp"></i></a>
-                        <a href="#" class="text-white mx-2"><i class="fas fa-globe"></i></a>
-                    </div>
-                    <span>Copyright - 2024</span>
-                </div>
-            </div>
-        </footer>
+        <footer class="py-3 footer">
+    <div class="container-fluid">
+        <div class="footer-centralizado">
+            <span class="footer-nome">Sabor do Brasil</span>
+            <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fas fa-globe"></i></a>
+            <span class="footer-copy">Copyright - 2024</span>
+        </div>
+    </div>
+</footer>
     </div>
 
     <!-- Modal de Login -->
@@ -148,8 +167,8 @@
                             Usuário ou senha incorreto
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Cancelar</button>
-                            <button type="submit" class="btn" id="submitLogin">Entrar</button>
+                            <button type="button" class="btn btn-sair " data-bs-dismiss="modal">Cancelar</button>
+                            <button type="submit" class="btn btn-entrar" id="submitLogin">Entrar</button>
                         </div>
                     </form>
                 </div>

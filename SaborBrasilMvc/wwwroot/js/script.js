@@ -78,8 +78,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         <span>${c.texto}</span>
                         ${c.podeEditar ? `
                             <div class="comentario-acoes-editar">
-                                <button class="btn btn-sm btn-link text-primary editar-comentario" data-id="${c.comentarioId}"><i class="fa-solid fa-pen-to-square"></i></button>
-                                <button class="btn btn-sm btn-link text-danger excluir-comentario" data-id="${c.comentarioId}"><i class="fa-solid fa-trash"></i></button> 
+                                <button class="btn btn-sm btn-link text-primary editar-comentario" data-id="${c.comentarioId}"> <img src="/img/icones/lapis_editar.svg" style="width:20px;height:20px;vertical-align:middle;"></button>
+                                <button class="btn btn-sm btn-link text-danger excluir-comentario" data-id="${c.comentarioId}"> <img src="/img/icones/lixeira_deletar.svg" style="width:20px;height:20px;vertical-align:middle;"></button> 
                             </div>
                         ` : ''}
                     </div>
@@ -125,22 +125,43 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Evita múltiplas áreas de edição
                 if (divComentario.querySelector('.edit-area')) return;
 
-                // Cria textarea e botões
+                // Cria um container flexível para textarea e botões
+                const editContainer = document.createElement('div');
+                editContainer.style.display = 'flex';
+                editContainer.style.flexDirection = 'column';
+                editContainer.style.width = '100%';
+
+                // Cria textarea
                 const textarea = document.createElement('textarea');
                 textarea.className = 'form-control edit-area mb-2';
                 textarea.value = textoOriginal;
+                textarea.style.width = '100%';
 
+                // Cria container para botões alinhados à direita
+                const btnsContainer = document.createElement('div');
+                btnsContainer.style.display = 'flex';
+                btnsContainer.style.justifyContent = 'flex-end';
+                btnsContainer.style.gap = '8px';
+
+                // Botão Atualizar
                 const btnSalvar = document.createElement('button');
-                btnSalvar.textContent = 'Salvar';
-                btnSalvar.className = 'btn btn-sm btn-success me-2';
+                btnSalvar.textContent = 'Atualizar';
+                btnSalvar.className = 'btn btn-sm btn-atualizar me-2';
 
+                // Botão Cancelar
                 const btnCancelar = document.createElement('button');
                 btnCancelar.textContent = 'Cancelar';
                 btnCancelar.className = 'btn btn-sm btn-secondary';
 
+                // Monta estrutura
+                btnsContainer.appendChild(btnSalvar);
+                btnsContainer.appendChild(btnCancelar);
+                editContainer.appendChild(textarea);
+                editContainer.appendChild(btnsContainer);
+
                 // Substitui o texto pelo editor
                 spanTexto.style.display = 'none';
-                spanTexto.parentNode.insertBefore(textarea, spanTexto);
+                spanTexto.parentNode.insertBefore(editContainer, spanTexto);
                 spanTexto.parentNode.insertBefore(btnSalvar, spanTexto.nextSibling);
                 spanTexto.parentNode.insertBefore(btnCancelar, btnSalvar.nextSibling);
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a1eeRHdLgEU=",
+  "dgSpecHash": "sxIWKRAfWdQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alunos\\Documents\\Nada_Permance_Oculto\\Desenvolvimeto_web\\Sabor_do_brasil\\SaborBrasilMvc\\SaborBrasilMvc.csproj",
+  "projectFilePath": "C:\\Users\\Alunos\\Documents\\Victor\\Sabor_do_brasil\\SaborBrasilMvc\\SaborBrasilMvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alunos\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.13\\microsoft.entityframeworkcore.8.0.13.nupkg.sha512",
     "C:\\Users\\Alunos\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.13\\microsoft.entityframeworkcore.abstractions.8.0.13.nupkg.sha512",
